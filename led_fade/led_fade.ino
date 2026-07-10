@@ -49,6 +49,8 @@ void loop() {
         if (color == NUM_COLORS) {
             color = 0;
         }
+        // dwell on the new color.
+        delay(fadeSpeed * 50);
     }
 }
 
